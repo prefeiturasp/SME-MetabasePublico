@@ -1,0 +1,16 @@
+metabase:
+  container_name: dafmetabase
+  image: metabase/metabase:latest
+  links:
+      - postgresmetabase
+  ports:
+      - "3000:3000"
+  env_file:
+    - env_file
+postgresmetabase:
+  container_name: postgresmetabase
+  image: postgres
+  ports:
+      - "5434:5432"
+  env_file:
+    - env_file

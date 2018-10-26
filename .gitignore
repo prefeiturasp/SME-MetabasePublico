@@ -1,0 +1,6 @@
+env_file
+*.dump
+*.sql
+build_local.sh
+postgresmetabase/
+*.DS_Store
