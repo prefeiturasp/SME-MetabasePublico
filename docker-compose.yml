@@ -16,7 +16,7 @@ services:
       - postgresmetabase
   postgresmetabase:
     container_name: postgresmetabase
-    image: postgres
+    image: postgres:10.6
     ports:
         - "5434:5432"
     env_file:
