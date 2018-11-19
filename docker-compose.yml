@@ -2,7 +2,7 @@ version: '3'
 services:
   metabase:
     container_name: dafmetabase
-    image: metabase/metabase:latest
+    image: metabase/metabase:v0.30.4
     links:
         - postgresmetabase
     expose:
