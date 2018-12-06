@@ -9,7 +9,13 @@
 
 ## Como funciona
 
-Este repositório usa Docker e Docker Compose para rodar uma aplicação Metabase, um banco de dados Postgresql e um [Nginx](https://www.nginx.com/) como reverse proxy. Os detalhes estão no arquivo `docker-compose.yml`. As configurações do Nginx estão em `conf.d/metabase.conf`.
+Este repositório usa Docker e Docker Compose para rodar:
+
+- uma aplicação Metabase
+- um banco de dados Postgresql
+- e um [Nginx](https://www.nginx.com/) como reverse proxy
+
+Os detalhes estão no arquivo `docker-compose.yml`. As configurações do Nginx estão em `conf.d/metabase.conf`.
 
 ## Instalação
 
